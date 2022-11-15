@@ -3,8 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <title>Rock Paper Scissors</title>
-        <script src="rps.js"></script>
+        <script src="rps.js" defer></script>
+        <link rel="stylesheet" href="rps.css">
     </head>
     <body>
+    <div class="board">
+        <h1>Rock, Paper or Scissors</h1>
+        <p>Choose your play:</p>
+        <div class="buttons_holder">
+            <button>Rock</button>
+            <button>Paper</button>
+            <button>Scissors</button>
+        </div>
+        <div class="scoreboard">
+            <div class="top-panel">
+                <h2>Results</h2>
+            </div>
+            <div class="display-panel">
+                <div class="player-side">
+                    <p>You chose:</p>
+                    <img src="images/paper.png" alt="player choice">
+                </div>
+                <div class="computer-side">
+                    <p>The computer chose:</p>
+                    <img src="images/rock.jpg" alt="computer choice">
+                </div>
+            </div>
+            <div class="bottom-panel">X beats x Results! You Won!</div>
+            <div class="score-panel">
+                <h2>The score so far: </h2>
+                <div class="numeric-score-panel">
+                    <div class="player-score">
+                        You: 0
+                    </div>
+                    <div class="computer-score">
+                        Computer: 0
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </body>
 </html>

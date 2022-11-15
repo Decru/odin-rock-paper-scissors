@@ -1,0 +1,72 @@
+body {
+    background: gray;
+    color: white;
+    font-family: "Agency FB", sans-serif;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: 64px;
+    margin: 50px;
+}
+p {
+    font-size: 48px;
+    margin: 0;
+}
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    color: white;
+    font-size: 36px;
+    font-weight: normal;
+    background: dimgray;
+    border-radius: 8px;
+    padding: 16px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: black;
+}
+.buttons_holder {
+    display: flex;
+    gap: 50px;
+    margin: 20px 0;
+}
+.scoreboard {
+    display: flex;
+    font-size: 26px;
+    text-align: center;
+}
+.display-panel {
+    display: flex;
+    gap: 100px;
+}
+.display-panel p {
+    font-size: 36px;
+    text-align: center;
+}
+img {
+    height: auto;
+    width: 300px;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline: white;
+    margin: 20px 0;
+}
+.bottom-panel {
+    margin: 20px 0;
+}
+.numeric-score-panel {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
