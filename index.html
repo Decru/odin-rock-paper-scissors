@@ -11,9 +11,9 @@
         <h1>Rock, Paper or Scissors</h1>
         <p>Choose your play:</p>
         <div class="buttons_holder">
-            <button>Rock</button>
-            <button>Paper</button>
-            <button>Scissors</button>
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
         </div>
         <div class="scoreboard">
             <div class="top-panel">
@@ -22,14 +22,15 @@
             <div class="display-panel">
                 <div class="player-side">
                     <p>You chose:</p>
-                    <img src="images/paper.png" alt="player choice">
+                    <img id="player-choice-image" src="images/paper.png" alt="player choice">
                 </div>
                 <div class="computer-side">
                     <p>The computer chose:</p>
-                    <img src="images/rock.jpg" alt="computer choice">
+                    <img id="computer-choice-image" src="images/rock.jpg" alt="computer choice">
                 </div>
             </div>
             <div class="bottom-panel">X beats x Results! You Won!</div>
+
             <div class="score-panel">
                 <h2>The score so far: </h2>
                 <div class="numeric-score-panel">
@@ -40,6 +41,19 @@
                         Computer: 0
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="end-screen">
+        <h1>Rock, Paper or Scissors</h1>
+        <p class="end-win-or-lose">You won the game!</p>
+        <h2>Final score:</h2>
+        <div class="final-score-container">
+            <div class="player-final-score">
+                You: 91
+            </div>
+            <div class="computer-final-score">
+                Computer: 213
             </div>
         </div>
     </div>
